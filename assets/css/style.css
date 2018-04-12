@@ -7,6 +7,7 @@ html, body {
 * {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #fff;
+	letter-spacing: 1px;
 }
 
 body {
@@ -209,10 +210,41 @@ body {
 
 #mainViewContainer {
 	margin-left: 220px;
-	padding: 90px;
+	padding-bottom: 90px;
 	width: calc(100%-220px);
 }
 
 #mainContent {
 	padding: 0 20px;
+}
+
+.pageHeadingBig {
+	padding: 20px;
+	text-align: center;
+}
+
+.gridViewItem {
+	display: inline-block;
+	margin-right: 20px;
+	width: 29%;
+	max-width: 200px;
+	min-width: 150px;
+	margin-bottom: 20px;
+}
+
+.gridViewItem img {
+	width: 100%;
+}
+
+.gridViewItem a {
+	text-decoration: none;
+}
+
+.gridViewInfo {
+	font-weight: 300;
+	text-align: center;
+	padding: 5px 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
 }
