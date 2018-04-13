@@ -248,3 +248,113 @@ body {
 	overflow: hidden;
 	white-space: nowrap;
 }
+
+.entityInfo {
+	padding: 40px 0 10px 0;
+	display: inline-block;
+	width: 100%;
+}
+
+.entityInfo .leftSection {
+	width: 30%;
+	float: left;
+	max-width: 250px;
+}
+
+.entityInfo .leftSection img {
+	width: 100%;
+}
+
+.entityInfo .rightSection {
+	width: 70%;
+	float: left;
+	padding: 5px 10px 5px 40px;
+	box-sizing: border-box;
+}
+
+.entityInfo .rightSection h2 {
+	margin-top: 0px;
+}
+
+.entityInfo .rightSection p {
+	color: #939393;
+	font-weight: 200;
+}
+
+.tracklist {
+	padding: 0;
+}
+
+.tracklistRow {
+	height: 40px;
+	padding: 15px 10px;
+	list-style: none;
+}
+
+.tracklistRow span {
+	color: #939393;
+	font-weight: 200;
+}
+
+.tracklistRow:hover {
+	background-color: #282828;
+}
+
+.tracklistRow .trackCount {
+	width: 8%;
+	float: left;
+}
+
+.tracklistRow .trackCount img {
+	width: 20px;
+	visibility: hidden;
+	position: absolute;
+	cursor: pointer;
+}
+
+.tracklistRow:hover .trackCount img {
+	visibility: visible;
+}
+
+.tracklistRow .trackCount span {
+	visibility: visible;
+}
+
+.tracklistRow:hover .trackCount span {
+	visibility: hidden;
+}
+
+.tracklistRow .trackInfo {
+	width: 75%;
+	float: left;
+}
+
+.tracklistRow .trackInfo span {
+	display: block;
+}
+
+.tracklistRow .trackOptions {
+	width: 5%;
+	float: left;
+	text-align: right;
+}
+
+.tracklistRow .trackOptions img {
+	width: 15px;
+	visibility: hidden;
+}
+
+.tracklistRow:hover .trackOptions img {
+	visibility: visible;
+}
+
+.tracklistRow .trackDuration {
+	width: 12%;
+	float: left;
+	text-align: right;
+}
+
+.tracklistRow .trackInfo .trackName {
+	color: #fff;
+	margin-bottom: 7px;
+}

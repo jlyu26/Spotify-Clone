@@ -1,4 +1,4 @@
-# Spotify-Clone
+# Spotify Clone
 
 A music service based on JavaScript, PHP, MySQL and jQuery.
 
