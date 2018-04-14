@@ -14,6 +14,5 @@
 			$artist = mysqli_fetch_array($artistQuery);
 			return $artist['name'];
 		}
-
 	}
 ?>

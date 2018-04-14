@@ -1,32 +1,32 @@
 html, body {
-	padding: 0;
-	margin: 0;
-	height: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 
 #background {
-	background-color: #000;
-	background-image: url(../images/bg.jpg);
-	background-position: center;
-	background-size: cover;
-	display: table;
-	height: 100%;
-	width: 100%;
+    background-color: #000;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 
 #loginContainer * {
-	color: #fff;
-	font-family: Circular, Helvetica, Arial, sans-serif;
-	font-weight: normal;
-	line-height: 1em;
-	box-sizing: border-box;
+    color: #fff;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
 }
 
 #loginContainer {
-	width: 80%;
-	margin: 0 auto;
-	position: relative;
-	max-width: 1200px;	
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1200px;  
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -52,96 +52,96 @@ html, body {
 }
 
 #inputContainer {
-	width: 400px;
-	padding: 45px;
-	float: left;
-	border-right: 1px solid #999;
+    width: 400px;
+    padding: 45px;
+    float: left;
+    border-right: 1px solid #999;
 }
 
 #inputContainer h2 {
-	text-align: center;
+    text-align: center;
 }
 
 #inputContainer input[type="text"],
 #inputContainer input[type="email"],
 #inputContainer input[type="password"] {
-	display: block;
-	background-color: transparent;
-	border: 0;
-	border-bottom: 1px solid #fff;
-	height: 27px;
-	line-height: 27px;
-	width: 100%;
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
 }
 
 #inputContainer label {
-	color: #a0a0a0;
+    color: #a0a0a0;
     font-size: 13px;
     display: block;
     margin-top: 15px;
 }
 
 #inputContainer button {
-	background-color: transparent;
-	border: 2px solid #fff;
-	border-radius: 250px;
-	color: #fff;
-	display: block;
-	font-size: 14px;
-	letter-spacing: 1px;
-	margin: 20px auto;
-	height: 41px;
-	width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 250px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 41px;
+    width: 100%;
 }
 
 #inputContainer button:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .hasAccountText span {
-	font-weight: bold;
-	font-size: 12px;
-	cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
 }
 
 .hasAccountText {
-	text-align: center;
+    text-align: center;
 }
 
 #registerForm,
 #loginForm {
-	display: none;
+    display: none;
 }
 
 #loginText {
-	padding: 45px;
-	display: table-cell;
+    padding: 45px;
+    display: table-cell;
 }
 
 #loginText h1 {
-	color: #07d159;
-	font-size: 60px;
-	font-weight: bold;
-	margin-top: 15px;
+    color: #07d159;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 15px;
 }
 
 #loginText h2 {
-	margin: 35px 0;
+    margin: 35px 0;
 }
 
 #loginText ul {
-	padding: 0;
+    padding: 0;
 }
 
 #loginText li {
-	font-size: 20px;
-	list-style-type: none;
-	padding: 5px 30px;
-	background: url(../images/icons/checkmark.png) no-repeat 0 0;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 5px 30px;
+    background: url(../images/icons/checkmark.png) no-repeat 0 0;
 }
 
 #inputContainer .errorMessage {
-	color: #07d159;
-	font-size: 12px;
-	display: block;
+    color: #07d159;
+    font-size: 12px;
+    display: block;
 }
