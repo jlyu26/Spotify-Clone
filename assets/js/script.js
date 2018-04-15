@@ -47,6 +47,10 @@ function updateVolumeProgressBar(audio) {
 	$(".volumeBar .progress").css("width", volume + "%");
 }
 
+function playFirstSong() {
+	setTrack(tempPlaylist[0], tempPlaylist, true);
+}
+
 function Audio() {
 	// 'this' refered to the object the event was called on, the 'audio' object
 	this.currentlyPlaying;
