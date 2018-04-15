@@ -10,6 +10,8 @@
 	
 	if (isset($_SESSION['userLoggedIn'])) {
 		$userLoggedIn = $_SESSION['userLoggedIn'];
+		// store php variable userLoggedIn in JavaScript variable userLoggedIn for AJAX
+		echo "<script>userLoggedIn = '$userLoggedIn';</script>";
 	} else {
 		header("Location: register.php");
 	}
@@ -23,7 +25,7 @@
 
 	<link rel="stylesheet" href="assets/css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	+	<script src="assets/js/script.js"></script>
+	<script src="assets/js/script.js"></script>
 </head>
 <body>
 

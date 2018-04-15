@@ -180,12 +180,11 @@
 
 
 			audioElement.setTrack(track);
-			playSong();
-		});
 
-		if (play == true) {
-			audioElement.play();
-		}
+			if (play == true) {
+				playSong();
+			}
+		});	
 	}
 
 	function playSong() {
