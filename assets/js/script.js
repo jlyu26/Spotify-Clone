@@ -28,6 +28,27 @@ function openPage(url) {
 	history.pushState(null, null, url);
 }
 
+function createPlaylist() {
+	var popup = prompt("Please enter the name of your playlist:");
+
+	if (popup != null) {
+
+		// using AJAX call to MySQL
+		$.post("includes/handlers/ajax/createPlaylist.php", { name: popup, username: userLoggedIn })
+		.done(function(error) {
+
+			if (error) {
+				alert(error);
+				return;
+			}
+
+			// execute when AJAX returns
+			openPage("yourMusic.php");
+		});
+
+	}
+}
+
 
 function formatTime(seconds) {
 	var time = Math.round(seconds);

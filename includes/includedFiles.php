@@ -2,9 +2,17 @@
 
 	if (isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {	// if user visit from AJAX
 		include("includes/config.php");
+		include("includes/classes/User.php");
 		include("includes/classes/Artist.php");
 		include("includes/classes/Album.php");
 		include("includes/classes/Song.php");
+		include("includes/classes/Playlist.php");
+
+		if (isset($_GET['userLoggedIn'])) {
+			$userLoggedIn = new User($con, $_GET['userLoggedIn']);
+		} else {
+			echo "$username variable was not passed into page.";
+		}
 	} else {	// if user visit page from url directly
 		// load header and footer files
 		include("includes/header.php");
